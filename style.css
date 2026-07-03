@@ -57,3 +57,18 @@ main {
     border-bottom:3px solid #fff;
     padding-bottom:5px;
 }
+
+p {
+    text-indent: 10px;
+}
+
+#suntzu2 {
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+footer {
+
+    height: 100px;
+    background-color: red;
+}
