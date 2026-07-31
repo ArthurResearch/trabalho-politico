@@ -93,3 +93,99 @@ p{
 .botao:hover{
     background:#8c1515;
 }
+
+.conteudo {
+    display: flex;
+}
+
+.letra{
+    flex: 1;
+    min-width: 320px;
+    max-width: 600px;
+    background-color: white;
+    border: solid 20px #b71c1c ;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+
+    /*min-width: 500px;
+    text-align: center;
+    margin: 0px 30vw;*/
+}
+
+.letra p {
+    font-size: 23px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.audio {
+    margin-top: 300px;
+    margin-right: 20px;
+    flex: 1;
+    width: 160px;
+    background-color: white;
+    border: solid 20px #b71c1c ;
+    border-radius: 20px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    max-height: 200px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th,
+td {
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: rgb(154, 6, 6);
+    color: #f4f7f6;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+td {
+    height: 100px;
+    background-color:  #f4f7f6;
+}
+
+.diaNumero {
+    font-weight: bold;
+    color: #4a5568;
+    display: block;
+    margin-bottom: 5px;
+}
+
+       
+.dataImportante {
+    font-size: 0.8rem;
+    padding: 4px 6px;
+    border-radius: 4px;
+    margin-top: 4px;
+    color: white;
+    background-color: rgb(192, 20, 20);
+    font-weight: 750;
+    transition: 555ms;
+    transform:scale(1);
+}
+
+.titulo, .subtitulo {
+    text-align: center;
+}
